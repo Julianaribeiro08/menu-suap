@@ -1,17 +1,30 @@
 .centro{
-    width: 400px;
-    background: aqua;  
+    width: 300px;
+    background: #f0f0e9;  
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
 .outro{
-    width: 300px;
-    background:violet; 
-    margin: 20px;
-    border-left-color: black;
+    background: #e0ffff;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left-color:blue;
     border-left-style: solid;
-    border-left-width: 5px;
-    
+    border-left-width: 5px; 
+}
+
+.texto{
+    color: #abafaf;
+}
+.title,.subtitle{
+padding-left: 20px;
+margin: 0px;
+
+
+}
+.subtitle{
+    color: #abafaf;
 }
 
