@@ -1,9 +1,11 @@
 import "./Novo.css"
 function Botao(){
-    return(
-        <div className="botao">
-            <input type="" placeholder="Mais informação"/>
+    return(   
+        
+        <div >
+        <button className="but">🔍 Mais Notícias </button>
         </div>
-    )
-}
+        
+    );
+    }
 export default Botao;

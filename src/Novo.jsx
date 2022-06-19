@@ -44,7 +44,7 @@ function Novo(){
                   </p>
                 
              </div>
-        <Botao/>
+          <Botao/>
         </div>
     )
 }
