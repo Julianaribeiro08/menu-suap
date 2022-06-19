@@ -4,8 +4,7 @@ function Botao(){
         
         <div >
         <button className="but">🔍 Mais Notícias </button>
-        </div>
-        
+        </div> 
     );
     }
 export default Botao;

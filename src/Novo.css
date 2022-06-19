@@ -1,22 +1,32 @@
 .centro{
-    width: 300px;
-    background: #f0f0e9;  
+    background: #eee;  
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
+    width: 300px;
+    padding-top: 5px;
 }
 .outro{
     background: #e0ffff;
     margin-top: 5px;
     margin-left: 20px;
     margin-right: 20px;
-    border-left-color:blue;
-    border-left-style: solid;
-    border-left-width: 5px; 
+    border-left: 5px solid blue;
+    width: 250px;
 }
 
 .texto{
     color: #abafaf;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    
+}
+p{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
 }
 .title,.subtitle{
 padding-left: 20px;
@@ -26,6 +36,7 @@ margin: 0px;
 }
 .subtitle{
     color: #abafaf;
+    margin-bottom: 10px;
 }
 .but{
     border-radius: 20px;
@@ -33,9 +44,11 @@ margin: 0px;
     padding: 4px 8px;
     transition: all 0.8s;
     align-self: flex-end;
-    margin-left: 130px;
+    margin-left: 150px;
     background-color: rgb(216, 215, 215);
     margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
 .but:hover{
